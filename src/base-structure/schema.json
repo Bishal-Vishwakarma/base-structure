@@ -1,0 +1,13 @@
+{
+    "title": "Demo Property",
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "default": "side menu",
+            "enum": ["tab", "side-menu"],
+            "x-prompt": "Select type of structure to be generated:"
+        }
+    },
+    "required": ["type"]
+}
